@@ -225,14 +225,3 @@ npm run dev
 ¡Gracias por leer y probar esta aplicación! 😊
 
 --- 
-
-Este formato es más claro, organizado y fácil de leer.---
-
-## Notas Finales
-
-- Los colores disponibles son: `["Red", "Brown", "Gray", "Black", "White"]`.
-- Los tamaños disponibles son: `[36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]`.
-
-¡Gracias por leer y probar esta aplicación! 😊
-
---- 
