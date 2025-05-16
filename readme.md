@@ -1,9 +1,30 @@
-
 # Proyecto Final Herrera
 
-## Introducción
+# git clone https://github.com/Legget2k/proyectoFinalHerrera.git
 
-Estimado lector, ¡bienvenido! Durante la creación de esta aplicación, surgieron dos errores complicados que resolví al finalizar el proyecto. A continuación, detallo los errores y cómo los solucioné.
+# API de Gestión de Productos
+
+Este proyecto implementa una API RESTful para la gestión de productos, permitiendo operaciones CRUD (crear, leer, actualizar y eliminar) sobre una base de datos MongoDB. Incluye autenticación basada en JWT y validaciones de datos para garantizar la integridad de la información.
+
+## Tecnologías utilizadas
+
+- Node.js
+- Express
+- TypeScript
+- MongoDB (Mongoose)
+- JWT (Json Web Token)
+- dotenv
+
+## Estructura del proyecto
+
+- `/controllers`: Lógica de negocio y controladores de rutas.
+- `/models`: Definición de esquemas y modelos de datos.
+- `/routes`: Definición de rutas de la API.
+- `/middlewares`: Middlewares personalizados (autenticación, validaciones, etc).
+- `/interfaces`: Interfaces TypeScript para tipado estricto.
+- `/utils`: Funciones utilitarias y helpers.
+
+## Errores al desarrollar la API
 
 ---
 
@@ -211,7 +232,7 @@ npm run dev
     "brand": "Nike",
     "price": 120,
     "size": 42,
-    "color": ["Red", "White"]
+    "color": "Red"
   }
   ```
 
